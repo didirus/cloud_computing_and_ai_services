@@ -1,0 +1,9 @@
+google-genai
+dotenv
+fastapi[all]
+google-generativeai
+vertexai
+torch
+torchvision
+matplotlib
+pandas
