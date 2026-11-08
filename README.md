@@ -1,126 +1,24 @@
 # Cloud Computing - Google Cloud Platform Workshop
 
-A hands-on tutorial in Dutch, for learning cloud computing concepts with Google Cloud Platform. This project teaches GCP fundamentals through practical exercises with Vertex AI, the Gemini API, Linux CLI, and PyTorch.
+Je gaat aan de slag met de GCP Console en leert werken met een agent in een Skills Lab van Google.
 
-## Overview
+### 1. Open het Lab
+1. Open de PDF "Lab Agent Studio" van Canvas en lees de eerste 2 pagina's
+1. Open vervolgens het lab in je browser: [https://www.skills.google/course_templates/552/labs/604755](https://www.skills.google/course_templates/552/labs/604755)
+2. Selecteer "Sign in with Google"
+3. Login met een Google account. Als je niet je eigen Google account wilt gebruiken, of nog geen hebt, selecteer dan "Create an account" en volg de stappen.
+4. Druk op "Start" als je de eerste 2 pagina's hebt doorgenomen. 
+5. Klik op "Buy credits"
+6. Selecteer het "No cost" starter pakket
+7. Geef Google Skills toegang tot je Google-account
+8. Vul het formulier in om GEAR (Gemini Enterprise Agent Ready) - lid te worden.
+9. Klik "Start Learning" en open opnieuw het lab: [https://www.skills.google/course_templates/552/labs/604755](https://www.skills.google/course_templates/552/labs/604755)
+10. Druk op "Start" en "Launch with 1 Credit"
+11. Rechter-muis-klik op "Open Google Cloud console" en Open Link in Ingocnito Window.
+12. Je hebt nu toegang tot Google Cloud Console! 
+13. Ga verder met het Lab vanaf pagina 3 (of volg de stappen n je browser).
 
-This workshop walks you through working with Google Cloud Platform services. You'll learn to:
+> 💡 Als je op "Start" klikt en je credit selecteert, dan start een GCP **instance**. Dit is een virtuele machine met een bepaalde CPU, geheugen en schijfruimte. In cloud computing betaal je alleen voor wat je gebruikt: wanneer de instance draait, worden resources (CPU-tijd, opslag) toegewezen. Vandaar dat er een tijdslimiet van 50 minuten is op dit gratis lab.
 
-- Set up and navigate GCP environments
-- Use the Gemini API via Vertex AI for generative AI tasks
-- Work with Linux command line on cloud VMs
-- Train neural networks with PyTorch on cloud infrastructure
-- Interact with Cloud Storage buckets
+---
 
-## Prerequisites
-
-- Python 3.8+
-- Google Cloud Platform account with Vertex AI enabled
-- Basic knowledge of Python
-- Jupyter Notebook or Google Cloud Workbench
-
-## Setup Instructions
-
-1. **Clone/download this repository**
-
-2. **Create a virtual environment** (recommended):
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Configure environment variables**:
-   - Copy `.env.example` to `.env`
-   - Fill in your GCP project details and credentials
-
-5. **Launch Jupyter Notebook**:
-   ```bash
-   jupyter notebook
-   ```
-
-6. **Open the relevant notebook** (see below)
-
-## Notebooks Guide
-
-### 1. [opdrachten/gemini.ipynb](opdrachten/gemini.ipynb)
-**Vertex AI & Gemini API** - Learn to work with Google's generative AI.
-
-**What you'll learn:**
-- Making your first Gemini API call
-- Controlling output with temperature and max_output_tokens
-- Getting structured JSON output from LLMs
-- Analyzing images with multimodal AI
-- Retrieving and analyzing data from Cloud Storage buckets
-- Error handling and safety settings
-
-**Best for:** Students who want to learn about generative AI in the cloud.
-
-### 2. [opdrachten/linux_shell.ipynb](opdrachten/linux_shell.ipynb)
-**Linux CLI Basics** - Essential command line skills for cloud environments.
-
-**What you'll learn:**
-- Navigating the filesystem (ls, cd, pwd)
-- File operations (touch, cp, mv, rm)
-- Creating and editing files (echo, cat)
-- Searching with grep
-- System information (ps, htop, df)
-- Shell scripting basics
-
-**Best for:** Students new to Linux who need CLI skills for cloud VMs.
-
-### 3. [opdrachten/pytorch.ipynb](opdrachten/pytorch.ipynb)
-**PyTorch Neural Networks** - Train a simple neural network on cloud infrastructure.
-
-**What you'll learn:**
-- Loading and exploring the MNIST dataset
-- Building a feedforward neural network
-- Understanding loss functions and optimizers
-- Training loops and epochs
-- Evaluating model performance
-- Experimenting with hyperparameters
-
-**Best for:** Students interested in machine learning on cloud GPUs.
-
-## Solutions
-
-The [uitwerkingen/](uitwerkingen/) directory contains complete solutions:
-- `linux_shell_uitwerkingen.ipynb` - Solutions for Linux CLI exercises
-- `pytorch-uitwerkingen.ipynb` - Solutions for PyTorch exercises
-
-## Documentation
-
-The [docs/](docs/) directory contains supplementary materials:
-- `cloud_concepten.md` - Overview of 20 fundamental cloud concepts
-- `gcp_setup.md` - Detailed GCP setup instructions
-
-## Key Concepts Covered
-
-1. **Cloud Computing** - On-demand compute, storage, and services
-2. **Vertex AI** - Google's managed ML platform
-3. **Generative AI** - Using LLMs via API (Gemini)
-4. **Cloud Storage** - Object storage with buckets
-5. **Virtual Machines** - Linux VMs in Compute Engine
-6. **Neural Networks** - Deep learning fundamentals with PyTorch
-
-## Troubleshooting
-
-**Issue:** `ModuleNotFoundError` when running notebooks
-- **Solution:** Make sure you activated the virtual environment and installed requirements
-
-**Issue:** Authentication errors with GCP
-- **Solution:** Verify your `.env` file has correct credentials and your GCP project has Vertex AI enabled
-
-**Issue:** Cannot connect to VM via SSH
-- **Solution:** Check that your VM instance is running in Compute Engine
-
-**Issue:** PyTorch training is slow
-- **Solution:** Consider using a GPU-enabled VM or Google Colab for faster training
-
-## License
-
-This educational material is provided for learning purposes.
