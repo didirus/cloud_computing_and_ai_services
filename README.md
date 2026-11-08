@@ -16,7 +16,7 @@ Je gaat aan de slag met de GCP Console en leert werken met een agent in een Skil
 10. Druk op "Start" en "Launch with 1 Credit"
 11. Rechter-muis-klik op "Open Google Cloud console" en Open Link in Ingocnito Window.
 12. Je hebt nu toegang tot Google Cloud Console! 
-13. Ga verder met het Lab vanaf pagina 3 (of volg de stappen n je browser).
+13. Ga verder met het Lab vanaf pagina 3 (of volg de stappen in je browser).
 
 > 💡 Als je op "Start" klikt en je credit selecteert, dan start een GCP **instance**. Dit is een virtuele machine met een bepaalde CPU, geheugen en schijfruimte. In cloud computing betaal je alleen voor wat je gebruikt: wanneer de instance draait, worden resources (CPU-tijd, opslag) toegewezen. Vandaar dat er een tijdslimiet van 50 minuten is op dit gratis lab.
 
