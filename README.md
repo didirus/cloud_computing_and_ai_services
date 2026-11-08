@@ -3,7 +3,7 @@
 Je gaat aan de slag met de GCP Console en leert werken met een agent in een Skills Lab van Google.
 
 ### 1. Open het Lab
-1. Open de PDF "Lab Agent Studio" van Canvas en lees de eerste 2 pagina's
+1. Open de PDF "Lab Agent Studio" van [Canvas](https://canvas.eur.nl/courses/58001/modules) en lees de eerste 2 pagina's
 1. Open vervolgens het lab in je browser: [https://www.skills.google/course_templates/552/labs/604755](https://www.skills.google/course_templates/552/labs/604755)
 2. Selecteer "Sign in with Google"
 3. Login met een Google account. Als je niet je eigen Google account wilt gebruiken, of nog geen hebt, selecteer dan "Create an account" en volg de stappen.
