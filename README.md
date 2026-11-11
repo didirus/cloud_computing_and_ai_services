@@ -22,3 +22,7 @@ Je gaat aan de slag met de GCP Console en leert werken met een agent in een Skil
 
 ---
 
+### Gemini API-key maken (gratis tier)
+1. Open [Google AI Studio — API keys](https://aistudio.google.com/apikey) en log in met je Google-account.
+2. Klik op **Create API key** en kies een project of laat AI Studio er een maken.
+3. Kopieer de key voor gebruik van het gemini-notebook. **Koppel geen billing-account en deel of publiceer je key niet.**
